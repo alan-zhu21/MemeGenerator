@@ -1,0 +1,73 @@
+input {
+	display: inline-block;
+	border-radius: 1em; /* adapted on 7/25/2021 from url: https://stackoverflow.com/questions/15197925/css3-rounded-corner-textbox-with-style */
+}
+
+/* create class for top text */
+.displayedTopText {
+	position: absolute; /* absolute is bad for different screens*/
+	left: 50%;
+	color: white;
+	font-size: 2em;
+	z-index: 1;
+}
+/* create class for bottom text */
+.displayedBottomText {
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+	color: white;
+	font-size: 2em;
+	z-index: 1;
+}
+
+.image {
+	z-index: -1;
+}
+
+.displayedMeme {
+	position: relative;
+}
+
+#submitbtn {
+	background-color: rgb(45, 136, 255);
+	color: white;
+	font-weight: bold;
+	font-size: 18;
+	width: 100px;
+	height: 40px;
+	border-radius: 1em;
+}
+
+.textbox {
+	width: 80%;
+}
+
+/* for the label css styling, on 7/25/2021, adapted from url: https://developpaper.com/how-to-align-text-boxes-in-multiple-forms-with-html/ */
+label {
+	cursor: pointer;
+	display: inline-block;
+	padding: 3px 6px;
+	text-align: left;
+	width: 250px;
+	vertical-align: top;
+	font-size: 20;
+}
+
+h1 {
+	text-align: center;
+	background-color: rgba(194, 194, 194, .3);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+form {
+	background-color: rgba(194, 194, 194, .3);
+}
+
+#description {
+	text-align: center;
+	background-color: rgba(194, 194, 194, .3);
+	margin-top: 0;
+	margin-bottom: 0;
+}

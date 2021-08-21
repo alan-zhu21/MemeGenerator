@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='Meme.css'>
+    <title>Meme Generator</title>
+</head>
+<body>
+
+    <h1>I CAN HAZ MEMEZ</h1>
+
+    <p id='description'>Fill out the form to start creating memes!</p>
+
+    <form id='memeForm'>
+
+        <label for='ImageURL'>Image URL</label>
+        <input id='ImageURL' class='textbox' type='url' name='ImageURL' placeholder="What's the URL for your meme image?"" required>
+        
+        <br><br>
+
+        <label for='topText'>Text On Top</label>
+        <input id='topText' class='textbox' type='text' name='TopText' placeholder='(Optional) What text do you want at the top of the meme?'>
+
+        <br><br>
+
+        <label for='bottomText'>Text On Bottom</label>
+        <input id='bottomText' class='textbox' type='text' name='BottomText' placeholder='(Optional) What text do you want at the bottom of the meme?'>
+
+        <br><br>
+
+        <button id='submitbtn' type='submit'>Add Meme</button>
+
+    </form>
+
+    <div id='memesGoHere' style='display:table-cell; width: 100%'>
+    <br>
+        
+    </div>
+<script src='Meme.js'></script>
+</body>
+</html>
